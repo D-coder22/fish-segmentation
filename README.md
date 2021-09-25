@@ -25,14 +25,27 @@ Used a [UNet architecture](https://towardsdatascience.com/unet-line-by-line-expl
 The model was trained for 5 Epochs over the train dataset yielding:
 | Average Epoch Accuracy | Average Epoch Loss | Epoch |
 | :--------------------: | :----------------: | :---: |
-| 63.2% | 0.207 | 1 |
-| 84% | 0.0782 | 2 |
-| 86.1% | 0.0664 | 3 |
-| 87% | 0.0617 | 4 |
-| 87.5% | 0.0586 | 5 |
+| 61.4% | 0.209 | 1 |
+| 83.5% | 0.0788 | 2 |
+| 85.8% | 0.0673 | 3 |
+| 86.5% | 0.0635 | 4 |
+| 87% | 0.061 | 5 |
+
+> Average training Accuracy was 80.85%
 
 _To predict the accuracy I used the [IoU (Intersection over Union) metric](https://www.pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/)_
 
 The model was then tested using the test dataset yielding:
 
 > Average accuracy of 86.69%
+
+## List of libraries used
+
+- [numpy](https://numpy.org/)
+- [pandas](https://pandas.pydata.org/)
+- [PyTorch](https://pytorch.org/)
+- [tqdm](https://tqdm.github.io/)
+- [albumentations](https://albumentations.ai/)
+- [scikit-learn](https://scikit-learn.org/stable/)
+- [pathlib](https://pathlib.readthedocs.io/en/pep428/)
+- [pillow](https://pillow.readthedocs.io/en/stable/)
