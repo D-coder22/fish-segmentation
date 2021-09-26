@@ -2,6 +2,8 @@
 
 Performed image segmenatation on the [large scale fish dataset](https://www.kaggle.com/crowww/a-large-scale-fish-dataset)
 
+> link to [Notebook](https://colab.research.google.com/drive/1G6RgulUFU3zwiI3HymGuTa6cOKNR2V0Z?usp=sharing)
+
 <img src="./assets/ai-output.png">
 
 ## Data Preprocessing
