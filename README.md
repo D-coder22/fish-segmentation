@@ -2,6 +2,8 @@
 
 Performed image segmenatation on the [large scale fish dataset](https://www.kaggle.com/crowww/a-large-scale-fish-dataset)
 
+<img src="./assets/ai-output.png">
+
 ## Data Preprocessing
 
 Images in the dataset were already augmented.
